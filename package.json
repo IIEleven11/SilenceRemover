@@ -6,10 +6,12 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "tauri": "tauri"
   },
   "license": "MIT",
   "devDependencies": {
+    "@tauri-apps/cli": "^1.5.11",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
@@ -22,6 +24,7 @@
     "@ffmpeg/ffmpeg": "^0.12.7",
     "@ffmpeg/util": "^0.12.1",
     "@solid-primitives/keyboard": "^1.2.5",
+    "@tauri-apps/api": "^1.5.3",
     "solid-icons": "^1.0.12",
     "solid-js": "^1.8.3",
     "wavesurfer.js": "^7.4.2"
